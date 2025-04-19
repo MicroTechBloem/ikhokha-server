@@ -12,7 +12,7 @@ const port = 3000;
 // Replace with your actual values
 const callbackUrl = "https://ikhokha-server.onrender.com/";
 const ApplicationKey = "hSA2CkQurGkWVmNgTYAsEsy8A0uWRn8w"; 
-const ApplicationId = "IKPKQEFULQIQS2S6XQCKN2V1BWV50A7M"; // 🔴 Replace this
+const ApplicationId = "IKPKQEFULQIQS2S6XQCKN2V1BWV50A7M"; 
 
 app.get("/", (req, res) => {
   res.send("✅ Server is running and ready to accept POST requests.");
